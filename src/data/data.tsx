@@ -321,12 +321,12 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Gerome Gali',
       text: 'I would like to recommend Kristian Gali for several areas of employment and expertise. Kristian possesses an in-depth knowledge of many different skill sets as a valuable contributor to the work community. Some of these areas include a strong background in Web and UI development and coding, which include languages such as HTML5, CSS3, PHP, Flash, Java, JQuery etc.',
-      image: 'https://kristiangali.com/images/portfolio/gerome.jpeg',
+      image: 'https://kristiangali.netlify.app/images/portfolio/gerome.jpeg',
     },
     {
       name: 'Curtis Lane Jensen',
       text: 'Kristian is passionate, exhuberant, and energetic. He works hard, works long and works with a determination that is inspiring. ',
-      image: 'https://kristiangali.com/images/portfolio/curtis.jpeg',
+      image: 'https://kristiangali.netlify.app/images/portfolio/curtis.jpeg',
     },
     {
       name: 'Dusty Oliverson',
