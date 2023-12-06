@@ -229,7 +229,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Simply Temples (301 Redirect LDS Art)',
     description:
       'I built and managed an ecommerce store in prestashop that sold artwork for temples. They recently merged this store to their primary brand LDS Art.',
-    url: 'https://reactresume.com',
+    url: 'https://ldsart.com',
     image: porfolioImage6,
   },
   {
@@ -250,7 +250,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Middle Uce Breakdancing',
     description:
       'Collaborated with Rex Jones Films to breakdance and this is just one of my more fun, happy projects to be apart of.',
-    url: 'https://youtube.com/@themiddleuce',
+    url: 'https://youtube.com/@samerican',
     image: porfolioImage9,
   },
   {
