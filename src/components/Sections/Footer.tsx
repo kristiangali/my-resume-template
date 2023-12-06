@@ -24,11 +24,11 @@ const Footer: FC = memo(() => (
         href="https://reactresume.com">
         <BoltIcon className="h-5 w-5 text-yellow" />
         <span>
-          Provided by <span className="text-white">React</span>
-          <span className="italic text-yellow">Resume</span>
+          Provided by <span className="text-white">React & Next</span>
+          <span className="italic text-yellow"> Js</span>
         </span>
       </a>
-      <span className="text-sm text-neutral-700">© Copyright {currentYear} Tim Baker</span>
+      <span className="text-sm text-neutral-700">© Copyright {currentYear} Kristian Gali</span>
     </div>
   </div>
 ));

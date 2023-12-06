@@ -11,21 +11,20 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/me.png';
+import porfolioImage11 from '../images/portfolio/allseasons.png';
+import porfolioImage4 from '../images/portfolio/interlinksupply.png';
+import porfolioImage5 from '../images/portfolio/internetmarketingos.png';
+import porfolioImage9 from '../images/portfolio/middleuce.png';
+import heroImage from '../images/portfolio/portfolio_background.png';
+import porfolioImage8 from '../images/portfolio/rhinorock.png';
+import porfolioImage10 from '../images/portfolio/rotorooter.png';
+import porfolioImage6 from '../images/portfolio/simplytemples.png';
+import porfolioImage1 from '../images/portfolio/solarinstalldealsscrnsht.png';
+import porfolioImage3 from '../images/portfolio/trendmappers_youtube.png';
+import porfolioImage2 from '../images/portfolio/xurli.png';
+import porfolioImage7 from '../images/portfolio/ydraw.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -44,8 +43,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'KG Portfolio Resume',
+  description: "Example site built with Kristian Gali's react resume template",
 };
 
 /**
@@ -69,18 +68,18 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Kristian Gali.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        Located in Cedar City, Utah as a <strong className="text-stone-100">SEO Strategist / Counselor</strong>,
+        currently working at <strong className="text-stone-100">Solar Install Deals</strong> helping build a modern,
+        mobile-first, domain solar website and presence.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me <strong className="text-stone-100">socializing</strong>, playing my{' '}
+        <strong className="text-stone-100">guitar</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">State of Utah.</strong>.
       </p>
     </>
   ),
@@ -104,16 +103,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm a first and foremost believer in a righteous creator, secondly a father, and third a proponent of truth and learning about how to help others through technological advancements.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Cedar City, Utah', Icon: MapIcon},
+    {label: 'Age', text: '39', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American / W. Samoan', Icon: FlagIcon},
+    {label: 'Interests', text: 'Family, Cosmilogical Reality, Music', Icon: SparklesIcon},
+    {label: 'Study', text: 'Dixie State (Utah Tech)', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Solar Install Deals', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -129,28 +126,28 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Samoan',
+        level: 6,
       },
       {
         name: 'Spanish',
-        level: 3,
+        level: 2,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Typed Languages',
     skills: [
       {
-        name: 'React',
-        level: 9,
+        name: 'React / Qwik',
+        level: 6,
       },
       {
         name: 'Typescript',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'Javascript',
         level: 6,
       },
     ],
@@ -159,7 +156,7 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: 'PHP',
         level: 8,
       },
       {
@@ -167,8 +164,8 @@ export const skills: SkillGroup[] = [
         level: 5,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Node.js',
+        level: 6,
       },
     ],
   },
@@ -180,11 +177,11 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'Flutter',
+        name: 'Ionic',
         level: 4,
       },
       {
-        name: 'Swift',
+        name: 'Rust Tauri',
         level: 3,
       },
     ],
@@ -196,69 +193,78 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Solar Install Deals',
+    description: 'Build and manage the leads for Solar Install Deals. Built site & calculator in PHP',
+    url: 'https://solarinstalldeals.com',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Xurli Online Marketing',
+    description: 'I built the e-sign docs for Xurli and managed many clients during my work here.',
+    url: 'https://xurli.com',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Trendmappers | Youtube',
+    description:
+      'This is a youtube channel I built and manage that speaks of non-popular, but true aspects of cosmology and events that I am passionate about.',
+    url: 'https://youtube.com/@trendmappers',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Interlink Supply | Aramsco',
+    description:
+      'I built and submitted the IOS and Android app for Interlink Supply technicians to reference the equipment they use. This was built in ionic / angular',
+    url: 'https://interlinksupply.com',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Orangesoda (301 Redirect to Deluxe corp)',
+    description:
+      'During my time working here, I managed many premium internet marketing client online marketing camplaigns. I was actively speaking to contacts about their serp results.',
+    url: 'https://deluxe.com',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
+    title: 'Simply Temples (301 Redirect LDS Art)',
+    description:
+      'I built and managed an ecommerce store in prestashop that sold artwork for temples. They recently merged this store to their primary brand LDS Art.',
     url: 'https://reactresume.com',
     image: porfolioImage6,
   },
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Ydraw',
+    description:
+      'During my time working with Ydraw, I helped them manage an organic seo campaign that dealt with keywords like but not limited to: "Whiteboard Explainer Videos" etc..',
+    url: 'https://ydraw.com',
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Rhino Rock',
+    description:
+      'Built site in wordpress and managed an organic seo presence for keywords like: "Concrete Walls in Utah" ',
+    url: 'https://rhinorock.com',
     image: porfolioImage8,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Middle Uce Breakdancing',
+    description:
+      'Collaborated with Rex Jones Films to breakdance and this is just one of my more fun, happy projects to be apart of.',
+    url: 'https://youtube.com/@themiddleuce',
     image: porfolioImage9,
   },
   {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Roto Rooter',
+    description:
+      'I worked closely as an SEO Strategist and Analyst during my deluxe job days to help RR with many keywords for their locations across the U.S.',
+    url: 'https://rotorooter.com',
     image: porfolioImage10,
   },
   {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'All Seasons Shades',
+    description:
+      'During a time, working with a company called Blusuit internet marketing, we built and strategized All Seasons Organic SEO.',
+    url: 'https://polarshades.com',
     image: porfolioImage11,
   },
 ];
@@ -268,39 +274,39 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'April 2017',
+    location: 'UVSC (Utah Valley University) & Dixie State ( Utah Tech )',
+    title: 'Assoiciates',
+    content: <p>Got the basics out of the way and followed my business endeavors.</p>,
   },
   {
     date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    location: 'Technical Certs',
+    title: 'A+, Cisco, Google Adwords, Linked In',
+    content: <p>Linked In Pass Certs in PHP, Javascript, HTM, CSS, Amazon Ec2, Adobe & a few more... </p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'October 2023 - Present',
+    location: 'Kristian Gali ~ Freelance Web & SEO',
+    title: 'Freelance Web Technologies.',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        I build stable websites and apps that perform well in many search engines. I build and manage search projects,
+        performance and landing products for various local and other technologies.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'June 2023 - Present',
+    location: 'Doordash Southern Utah',
+    title: 'Dasher',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Many would say that Doordash doesn't qualify as a valid "job". However I've had a great experience with this and
+        have doordashed more than 750 deliveries and have made some reliable income in doing so.
       </p>
     ),
   },
@@ -313,19 +319,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Gerome Gali',
+      text: 'I would like to recommend Kristian Gali for several areas of employment and expertise. Kristian possesses an in-depth knowledge of many different skill sets as a valuable contributor to the work community. Some of these areas include a strong background in Web and UI development and coding, which include languages such as HTML5, CSS3, PHP, Flash, Java, JQuery etc.',
+      image: 'https://kristiangali.com/images/portfolio/gerome.jpeg',
+    },
+    {
+      name: 'Curtis Lane Jensen',
+      text: 'Kristian is passionate, exhuberant, and energetic. He works hard, works long and works with a determination that is inspiring. ',
+      image: 'https://kristiangali.com/images/portfolio/curtis.jpeg',
+    },
+    {
+      name: 'Dusty Oliverson',
+      text: 'Kristian works hard and understands the internet marketing and online building sphere.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
 };
@@ -340,23 +346,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'mr.gali@protonmail.com',
+      href: 'mailto:mr.gali@protonmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Cedar City, Utah',
+      href: 'https://www.google.ca/maps/place/Cedar+City',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@thecalmnapalm',
+      href: 'https://www.instagram.com/thecalmnapalm/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'kristiangali',
+      href: 'https://github.com/kristiangali',
     },
   ],
 };
@@ -365,9 +371,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/kristiangali'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/kristiangali/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/thecalmnapalm/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/thecalmnapalm'},
 ];
