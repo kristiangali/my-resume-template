@@ -72,9 +72,9 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Located in Cedar City, Utah as a <strong className="text-stone-100">SEO Strategist / Counselor</strong>,
-        currently working at <strong className="text-stone-100">Solar Install Deals</strong> helping build a modern,
-        mobile-first, domain solar website and presence.
+        Located in Washington, Utah. Currently a Freelance <strong className="text-stone-100">SEO Strategist / Counselor</strong>,
+        also working on <strong className="text-stone-100">Solar Install Deals</strong> helping build a modern,
+        mobile-first, domain solar website and presences online.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me <strong className="text-stone-100">socializing</strong>, playing my{' '}
