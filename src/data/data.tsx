@@ -199,13 +199,6 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
-    title: 'Trendmappers | Youtube',
-    description:
-      'This is a youtube channel I built and manage that speaks of non-popular, but true aspects of cosmology and events that I am passionate about.',
-    url: 'https://youtube.com/@trendmappers',
-    image: porfolioImage3,
-  },
-  {
     title: 'Interlink Supply | Aramsco',
     description:
       'I built and submitted the IOS and Android app for Interlink Supply technicians to reference the equipment they use. This was built in ionic / angular',
