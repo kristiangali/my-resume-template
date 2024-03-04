@@ -193,12 +193,6 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Solar Install Deals',
-    description: 'Build and manage the leads for Solar Install Deals. Built site & calculator in PHP',
-    url: 'https://solarinstalldeals.com',
-    image: porfolioImage1,
-  },
-  {
     title: 'Xurli Online Marketing',
     description: 'I built the e-sign docs for Xurli and managed many clients during my work here.',
     url: 'https://xurli.com',
