@@ -105,7 +105,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I'm a first and foremost believer in a righteous creator, secondly a father, and third a proponent of truth and learning about how to help others through technological advancements.`,
   aboutItems: [
-    {label: 'Location', text: 'Cedar City, Utah', Icon: MapIcon},
+    {label: 'Location', text: 'Washington, Utah', Icon: MapIcon},
     {label: 'Age', text: '39', Icon: CalendarIcon},
     {label: 'Nationality', text: 'American / W. Samoan', Icon: FlagIcon},
     {label: 'Interests', text: 'Family, Cosmilogical Reality, Music', Icon: SparklesIcon},
